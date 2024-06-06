@@ -1,0 +1,1 @@
+# wc-composite-products-iwd
