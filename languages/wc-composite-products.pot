@@ -1,0 +1,378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-24 15:25+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wc-composite-products.php:56
+msgid ""
+"WooCommerce multi step order builder plugin needs WooCommerce to be "
+"installed and active."
+msgstr ""
+
+#: include/wccp-admin.php:28
+msgid "Are you sure to delete the step"
+msgstr ""
+
+#: include/wccp-admin.php:29
+msgid "Can't delete the only step"
+msgstr ""
+
+#: include/wccp-admin.php:30 include/wccp-admin.php:187
+msgid "Box#"
+msgstr ""
+
+#: include/wccp-admin.php:40
+msgid "Box Products"
+msgstr ""
+
+#: include/wccp-admin.php:41
+msgid "Settings"
+msgstr ""
+
+#: include/wccp-admin.php:63
+msgid "Composite Product"
+msgstr ""
+
+#: include/wccp-admin.php:68
+msgid "Products Boxes"
+msgstr ""
+
+#: include/wccp-admin.php:73
+msgid "Color Settings"
+msgstr ""
+
+#: include/wccp-admin.php:90
+msgid "Pricing Type"
+msgstr ""
+
+#: include/wccp-admin.php:91
+msgid "Select composite box products pricing type"
+msgstr ""
+
+#: include/wccp-admin.php:95
+msgid "Product Addons Price + Regular Price"
+msgstr ""
+
+#: include/wccp-admin.php:96
+msgid "Fixed Regular Price"
+msgstr ""
+
+#: include/wccp-admin.php:97
+msgid "Product Addons Price Only"
+msgstr ""
+
+#: include/wccp-admin.php:103
+msgid "Box Layout Columns"
+msgstr ""
+
+#: include/wccp-admin.php:105
+msgid "Set the composite products boxes layout columns"
+msgstr ""
+
+#: include/wccp-admin.php:117
+msgid "Products Layout Columns"
+msgstr ""
+
+#: include/wccp-admin.php:119
+msgid "Set the composite products layout columns"
+msgstr ""
+
+#: include/wccp-admin.php:131
+msgid "Show Products Per Page"
+msgstr ""
+
+#: include/wccp-admin.php:133
+msgid "Should be equal or greater than product layout columns"
+msgstr ""
+
+#: include/wccp-admin.php:140
+msgid "Show Price"
+msgstr ""
+
+#: include/wccp-admin.php:143
+msgid "Show addon price"
+msgstr ""
+
+#: include/wccp-admin.php:148
+msgid "Discount Type"
+msgstr ""
+
+#: include/wccp-admin.php:150 include/wccp-admin.php:162
+msgid "Set bundle products discount."
+msgstr ""
+
+#: include/wccp-admin.php:153
+msgid "Fixed"
+msgstr ""
+
+#: include/wccp-admin.php:154
+msgid "Percentage"
+msgstr ""
+
+#: include/wccp-admin.php:160 include/wccp-frontend.php:135
+msgid "Discount"
+msgstr ""
+
+#: include/wccp-admin.php:169
+msgid "Enable Cart Message"
+msgstr ""
+
+#: include/wccp-admin.php:172
+msgid "Enable cart page message"
+msgstr ""
+
+#: include/wccp-admin.php:175
+msgid "Add New Box"
+msgstr ""
+
+#: include/wccp-admin.php:195
+msgid "Box Name"
+msgstr ""
+
+#: include/wccp-admin.php:203
+msgid "Box Title"
+msgstr ""
+
+#: include/wccp-admin.php:211
+msgid "No of Composite Product Boxes"
+msgstr ""
+
+#: include/wccp-admin.php:220
+msgid "Add minimum Products to Boxes"
+msgstr ""
+
+#: include/wccp-admin.php:229
+msgid "Box Description"
+msgstr ""
+
+#: include/wccp-admin.php:238
+msgid "Choose Products"
+msgstr ""
+
+#: include/wccp-admin.php:241
+msgid "Select products for add to box."
+msgstr ""
+
+#: include/wccp-admin.php:246
+msgid "Select Products"
+msgstr ""
+
+#: include/wccp-admin.php:262
+msgid "Choose Categories"
+msgstr ""
+
+#: include/wccp-admin.php:265
+msgid "Select product categories for displaying its products."
+msgstr ""
+
+#: include/wccp-admin.php:270
+msgid "Select categories"
+msgstr ""
+
+#: include/wccp-admin.php:283
+msgid "Product Boxes Background Color"
+msgstr ""
+
+#: include/wccp-admin.php:290
+msgid "Product Boxes Border Color"
+msgstr ""
+
+#: include/wccp-admin.php:297
+msgid "Product Boxes Text Color"
+msgstr ""
+
+#: include/wccp-cart.php:182
+msgid "Cart Message"
+msgstr ""
+
+#: include/wccp-common.php:20
+msgid "Something is wrong please try again."
+msgstr ""
+
+#: include/wccp-common.php:24
+msgid "Product can not be found!"
+msgstr ""
+
+#: include/wccp-common.php:69
+msgid "No boxes to load"
+msgstr ""
+
+#: include/wccp-common.php:78 include/wccp-common.php:115
+msgid "No Boxes to load"
+msgstr ""
+
+#: include/wccp-common.php:132 include/wccp-frontend.php:46
+msgid "Add to Box"
+msgstr ""
+
+#: include/wccp-common.php:198
+msgid "Out of stock"
+msgstr ""
+
+#: include/wccp-common.php:213
+msgid "No products for review"
+msgstr ""
+
+#: include/wccp-common.php:220 include/wccp-frontend.php:93
+msgid "Add to cart"
+msgstr ""
+
+#: include/wccp-common.php:225
+msgid "Review Products"
+msgstr ""
+
+#: include/wccp-frontend.php:54
+msgid "Stock Limit reached."
+msgstr ""
+
+#: include/wccp-frontend.php:105
+msgid "Price: "
+msgstr ""
+
+#: include/wccp-frontend.php:110
+msgid "Next"
+msgstr ""
+
+#: include/wccp-frontend.php:112
+msgid "Reset"
+msgstr ""
+
+#: include/wccp-frontend.php:114
+msgid "Prev"
+msgstr ""
+
+#: include/wccp-frontend.php:125
+msgid "Price"
+msgstr ""
+
+#: include/wccp-frontend.php:149
+msgid "Edit Products"
+msgstr ""
+
+#: include/wccp-frontend.php:155
+msgid "Any Message"
+msgstr ""
+
+#: include/wccp-frontend.php:168
+msgid "load More"
+msgstr ""
+
+#: include/wccp-frontend.php:180
+msgid "Stock limit reached for this product!"
+msgstr ""
+
+#: include/wccp-frontend.php:182
+msgid "Boxes completed!"
+msgstr ""
+
+#: include/wccp-settings.php:10
+msgid "General"
+msgstr ""
+
+#: include/wccp-settings.php:11
+msgid "Labels"
+msgstr ""
+
+#: include/wccp-settings.php:44 include/wccp-settings.php:87
+msgid "Box Products Basic Settings"
+msgstr ""
+
+#: include/wccp-settings.php:48
+msgid "Enable Scroll Top"
+msgstr ""
+
+#: include/wccp-settings.php:50
+msgid "Enable this option to scroll up on add item to box"
+msgstr ""
+
+#: include/wccp-settings.php:55
+msgid "On Click Box Items Feature"
+msgstr ""
+
+#: include/wccp-settings.php:58
+msgid ""
+"Redirect to product item's single product page on click of product item's "
+"image or title link."
+msgstr ""
+
+#: include/wccp-settings.php:61
+msgid "Open quick view popup on click of product item's image or title link."
+msgstr ""
+
+#: include/wccp-settings.php:64
+msgid "Disable any feature on click of product item's image or title link."
+msgstr ""
+
+#: include/wccp-settings.php:70
+msgid "Enable Variable Products"
+msgstr ""
+
+#: include/wccp-settings.php:72
+msgid "Enable this option to allow variations of variable products"
+msgstr ""
+
+#: include/wccp-settings.php:91
+msgid "Cart Button Label"
+msgstr ""
+
+#: include/wccp-settings.php:96
+msgid "Add to Box Button Label"
+msgstr ""
+
+#: include/wccp-settings.php:101
+msgid "Next Button Label"
+msgstr ""
+
+#: include/wccp-settings.php:106
+msgid "Reset Button Label"
+msgstr ""
+
+#: include/wccp-settings.php:111
+msgid "Previous Button Label"
+msgstr ""
+
+#: include/wccp-settings.php:116
+msgid "Discount Label"
+msgstr ""
+
+#: include/wccp-settings.php:121
+msgid "Price Label"
+msgstr ""
+
+#: include/wccp-settings.php:126
+msgid "Edit Products Label"
+msgstr ""
+
+#: include/wccp-settings.php:131
+msgid "Cart Message Label"
+msgstr ""
+
+#: include/wccp-settings.php:136
+msgid "Load More Button Label"
+msgstr ""
+
+#: include/wccp-settings.php:141
+msgid "Review Products Label"
+msgstr ""
+
+#: include/wccp-settings.php:146
+msgid "Stock Warning Text"
+msgstr ""
+
+#: include/wccp-settings.php:151
+msgid "Box Completion Warning Text"
+msgstr ""

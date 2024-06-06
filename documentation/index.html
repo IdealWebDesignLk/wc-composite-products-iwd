@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>WooCommerce Composite Prodct Plugin</title>
+      <meta name="description" content="" />
+      <meta name="author" content="themeComplete" />
+      <meta name="copyright" content="themeComplete" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="assets/css/style.css" rel="stylesheet" />
+   </head>
+   <body id="body_top">
+      <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+         <div class="container">
+            <div class="navbar-header">
+               <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+            </div>
+         </div>
+      </header>
+      <div class="container bs-docs-container">
+         <div class="row">
+            <div class="col-md-3">
+               <div role="complementary" class="bs-docs-sidebar hidden-print">
+                  <ul class="nav bs-docs-sidenav">
+                     <li>
+                        <a href="#overview" title="Overview">Overview</a>
+                        <ul class="nav">
+                           <li><a href="#minimum_requirements">Minimum requirements</a></li>
+                           <li><a href="#sources">Sources</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="#installation" title="About the plugin">Installation</a>
+                        <ul class="nav">
+                           <li><a href="#installation-zip">Install with a zip file</a></li>
+                           <li><a href="#installation-ftp">Install by FTP Manager</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="#quick_start" title="Quick Start Guide">Quick Start Guide</a>
+                        <ul class="nav">
+                           <li><a href="#basic_plugin_usage">Basic plugin usage</a></li>
+                           <li><a href="#advanced_plugin_usage">Advanced plugin usage</a></li>
+                           <li><a href="#panel-settings">Panel settings</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="#normal_mode" title="Normal mode">Backend Options</a>
+                        <ul class="nav">
+                           <li><a href="#general">General Settings</a></li>
+                           <li><a href="#options">Product Options</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="#frontend_mode" title="Normal mode">Frontend View</a>
+                     </li>
+                  </ul>
+                  <a href="#top" class="back-to-top">Back to top</a>
+               </div>
+            </div>
+            <div role="main" class="col-md-9">
+               <div id="content" class="bs-docs-header">
+                  <h1>WooCommerce Composite Prodct Plugin</h1>
+                  <p>Enable your to add multiple products as a single product to cart at a time</p>
+               </div>
+               <div class="jumbotron">
+                  <p>Thank you for purchasing my plugin. If you have any questions that are beyond the scope of this help file.</p>
+               </div>
+               <div class="bs-docs-section">
+                  <h1 class="page-header" id="overview">Overview</h1>
+                  <p>Allow customers to create the product bundle in the step by step selection of items from specific products, or categories, the admin can force the customers to specific limit of selection of items from each step. The customers can go for each step & create the bundle of their own choice. </p>
+                  <h3 id="minimum_requirements">Minimum requirements</h3>
+                  <ul>
+                     <li>PHP 5.4</li>
+                     <li>WordPress 4</li>
+                     <li>WooCommerce 2.4</li>
+                     <li>JavaScript / jQuery</li>
+                  </ul>
+                  <h3 id="sources">Sources</h3>
+                  <ul>
+                     <li>WordPress</li>
+                     <li>WooCommerce</li>
+                  </ul>
+               </div>
+               <div class="bs-docs-section">
+                  <h1 class="page-header" id="installation">Installation</h1>
+                  <p>There are two primary methods for installing any WordPress plugin.</p>
+                  <h3 id="installation-zip">Install with a zip file</h3>
+                  <ol>
+                     <li>
+                        From your WordPress dashboard, choose <code class="text-link">Plugins > Add New</code>
+                     </li>
+                     <li>
+                        Select <code class="text-link">Upload</code> from the set of links at the top of the page (the second link)
+                     </li>
+                     <li>
+                        From here, browse for the zip file included in your plugin purchase titled <strong class="text-info">composite-product.zip</strong> and click the <code class="text-link">Install Now</code> button
+                     </li>
+                     <li>
+                        Once installation is complete, click <code class="text-link">Activate Plugin</code> to activate it and enable its features.
+                     </li>
+                  </ol>
+                  <h3 id="installation-ftp">Install by FTP Manager</h3>
+                  <p>
+                     If you are have no previous web experience and have no idea what an FTP Manager is, then this option is not for you.
+                  </p>
+                  <ol>
+                     <li>Access your host through the FTP manager</li>
+                     <li>
+                        Access the plugins directory of your WordPress install 
+                        <code class="text-link">/<em>(WordPress directory)</em>/wp-content/plugins/</code>
+                        <p>If WordPress is installed on the root folder the directory is <code class="text-link">/wp-content/plugins/</code></p>
+                     </li>
+                     <li>
+                        Find the directory titled <strong class="text-info">show product variations</strong> and upload it and all files within to the directory from the previous step.
+                     </li>
+                     <li>From your WordPress dashboard, choose <code class="text-link">Plugins > Installed Plugins</code></li>
+                     <li>Locate the newly added plugin and click on the <code class="text-link">Activate</code> link to enable its features.</li>
+                  </ol>
+               </div>
+               <div class="bs-docs-section">
+                  <h1 class="page-header" id="quick_start">Quick Start Guide</h1>
+                  <p>WooCommerce Composite Prodct Plugin is really easy to use. Below we described it step by step</p>
+                  <h2 id="basic_plugin_usage">Basic plugin usage</h2>
+                  <h3>Step 1</h3>
+                  <p>Enable module from general options.</p>
+                  <h3>Step 2</h3>
+                  <p>Enable/disable more option according to your product. Formate the boxes.</p>
+                  <h3>Step 3</h3>
+                  <p>Create a composite product with maximum no of boxes and steps.</p>
+                  <p>Choose products from every step and add to box.</p>
+                  <p>When added all products, review your added products. So then you have to edit the products back if required or add them to cart.</p>
+               </div>
+               <div class="bs-docs-section">
+                  <h2 class="page-header" id="normal_mode">Backend Options</h2>
+                  <p>There are several options on admin panel of WooCommerce Composite Prodct Plugin. You can set them one by one.</p>
+                  <h3 id="general">General Settings</h3>
+                  <p>General settings tab is the main options area of plugin.</p>
+                  <p>
+                     <img alt="TM Extra Product Options" class="img-thumbnail img-responsive" src="assets/images/general-options.PNG">
+                  </p>
+                  <span class="emphasis">Enable Module</span>
+                  <p> You can enable / disable composite product functionality from here</p>
+                  <span class="emphasis">Scroll up</span>
+                  <p> When you add product to box it will scrollup. You can enable/disable it by checking this option.</p>
+                  <span class="emphasis">Show Variable Products</span>
+                  <p> You can allow  variable product variations by checking this option</p>
+                  <span class="emphasis">Cart Button Label  </span>
+                  <p>You can set cart button text from here.</p>
+                  <span class="emphasis">Add to Box Button Label  </span>
+                  <p>You can set add to box button text from here.</p>
+                  <span class="emphasis">Product Boxes Background Color   </span>
+                  <p>You can set composite boxes background color from here</p>
+                  <span class="emphasis">Product Boxes Border Color     </span>
+                  <p>You can set composite boxes border color from here</p>
+                  <h3 id="options">Product Options</h3>
+                  <p>You can set composite product here</p>
+                  <p>
+                     <img alt="TM Extra Product Options" class="img-thumbnail img-responsive" src="assets/images/product-options.PNG">
+                  </p>
+                  <span class="emphasis">First you have to select your product type 'Composite Product'</span>
+                  <p> Then you will be able to see the product boxes tab in side menu. By clicking product boxes tab you will get more information about it.</p>
+                  <span class="emphasis">Pricing Type</span>
+                  <p>You can set composite product pricing type from here. There are three types of pricing types.</p>
+                  <p><b>Product Addons Price Only:</b> Your product initial price will be zero and it will count only added products prices.</p>
+                  <p><b>Product Addons Price + Regular price:</b> Your product initial price will be equal to its regular price and it will add price of its added products also.</p>
+                  <p><b>Fixed price:</b> Your product price will be eual to regular price.</p>
+                  <span class="emphasis">Box Layout Columns</span>
+                  <p>You can set columns of your boxes it may 3, 4, 5, 6 etc.</p>
+                  <span class="emphasis">Products Layout Columns</span>
+                  <p>You can set columns of your products of the composite steps it may 3, 4, 5, 6 etc.</p>
+                  <span class="emphasis">Show Products Per Page</span>
+                  <p>You can set to show how many products initially so that you can load more products by loader.</p>
+                  <span class="emphasis">Enable Product Price</span>
+                  <p>You can enable/disable product prices by checking this option.</p>
+                  <span class="emphasis">Add New Box</span>
+                  <p>You can Add Boxes by clicking this button.</p>
+                  <p>
+                     <img alt="TM Extra Product Options" class="img-thumbnail img-responsive" src="assets/images/box-options.PNG">
+                  </p>
+                  <span class="emphasis">Boxes Options</span>
+                  <p>You can also set your box individually.</p>
+                  <p>You can set box name, Box title, Box short description, .</p>
+                  <p>you can set No of Composite Product Boxes.</p>
+                  <p><b>Add minimum Products to Boxes:</b> you can validate your box by his option. So you will be restrict of adding products to box with limit.</p>
+                  <p>You can choose as many products as you want by select 2 dropdown and categories also.</p>
+               <div class="bs-docs-section">
+                  <h2 class="page-header" id="frontend_mode">Frontend View</h2>
+                  <h3 id="Shop_page">Composite Product</h3>
+                  <p>
+                     <img alt="TM Extra Product Options" class="img-thumbnail img-responsive" src="assets/images/composite-boxes.PNG">
+                  </p>
+                  <p>You can see the boxes with label where products will be added. its footer section contain price and navigation system.</p>
+                  <p>
+                     <img alt="TM Extra Product Options" class="img-thumbnail img-responsive" src="assets/images/boxes-products.PNG">
+                  </p>
+                  <p>You can see the products which you have to add to box with custom button of add to box. You cal also see load more button to load more products of the same step.</p>
+                  <p>
+                     <img alt="TM Extra Product Options" class="img-thumbnail img-responsive" src="assets/images/added-prods.PNG">
+                  </p>
+                  <p>When product added to box. So you can remove the added product by clicking on box. You can see the navigation button which will be enabled/disabled according to limit of box.</p>
+                  <p>
+                     <img alt="TM Extra Product Options" class="img-thumbnail img-responsive" src="assets/images/review-prods.PNG">
+                  </p>
+                  <p>When all products added to all steps so you will be redirected to review your added products. So from here you can edit them also or add them to cart.</p>
+               </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer class="bs-docs-footer" role="contentinfo">
+         <div class="container">
+               <a href="http://www.workbox.pk/">contact at our site or</a><br>
+            <a href="https://codecanyon.net/user/wurkbox">contact at codecanyon</a>
+         </div>
+      </footer>
+      <script src="assets/js/jquery.js"></script> 
+      <script src="assets/js/bootstrap.min.js"></script> 
+      <script src="assets/js/scripts.js"></script> 
+   </body>
+</html>
